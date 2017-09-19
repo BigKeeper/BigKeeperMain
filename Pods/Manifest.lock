@@ -1,0 +1,21 @@
+PODS:
+  - BigKeeperModular (0.1.0)
+
+DEPENDENCIES:
+  - BigKeeperModular (from `git@github.com:mmoaay/BigKeeperModular.git`)
+
+EXTERNAL SOURCES:
+  BigKeeperModular:
+    :git: git@github.com:mmoaay/BigKeeperModular.git
+
+CHECKOUT OPTIONS:
+  BigKeeperModular:
+    :commit: cefa91eb14a4ddb747989d4655becea05238138d
+    :git: git@github.com:mmoaay/BigKeeperModular.git
+
+SPEC CHECKSUMS:
+  BigKeeperModular: 6a8230aa173c0c624607cdb218554060a63c5633
+
+PODFILE CHECKSUM: 4710fa6ef3f9d234e73509303b92600a56cacdac
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module BigKeeperModular {
+  umbrella header "BigKeeperModular-umbrella.h"
+
+  export *
+  module * { export * }
+}

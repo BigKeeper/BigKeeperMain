@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2269BD8B4981A8B3DB3DBD /* Pods_BigKeeperMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65151A9E62E94156D185626 /* Pods_BigKeeperMain.framework */; };
 		853223301F70ED11002B3CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8532232F1F70ED11002B3CD5 /* AppDelegate.swift */; };
 		853223321F70ED11002B3CD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853223311F70ED11002B3CD5 /* ViewController.swift */; };
 		853223351F70ED11002B3CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853223331F70ED11002B3CD5 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		8532233A1F70ED11002B3CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853223381F70ED11002B3CD5 /* LaunchScreen.storyboard */; };
 		853223451F70ED11002B3CD5 /* BigKeeperMainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853223441F70ED11002B3CD5 /* BigKeeperMainTests.swift */; };
 		853223501F70ED11002B3CD5 /* BigKeeperMainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8532234F1F70ED11002B3CD5 /* BigKeeperMainUITests.swift */; };
+		8532235E1F70EFC5002B3CD5 /* Bigkeeper in Resources */ = {isa = PBXBuildFile; fileRef = 8532235D1F70EFC5002B3CD5 /* Bigkeeper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001A636365C87D76E00876D7 /* Pods-BigKeeperMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigKeeperMain.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigKeeperMain/Pods-BigKeeperMain.release.xcconfig"; sourceTree = "<group>"; };
+		392DD187036393D2EFF4CAA6 /* Pods-BigKeeperMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigKeeperMain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigKeeperMain/Pods-BigKeeperMain.debug.xcconfig"; sourceTree = "<group>"; };
 		8532232C1F70ED11002B3CD5 /* BigKeeperMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigKeeperMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8532232F1F70ED11002B3CD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853223311F70ED11002B3CD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		8532234B1F70ED11002B3CD5 /* BigKeeperMainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigKeeperMainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8532234F1F70ED11002B3CD5 /* BigKeeperMainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigKeeperMainUITests.swift; sourceTree = "<group>"; };
 		853223511F70ED11002B3CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8532235D1F70EFC5002B3CD5 /* Bigkeeper */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bigkeeper; sourceTree = "<group>"; };
+		B65151A9E62E94156D185626 /* Pods_BigKeeperMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigKeeperMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2269BD8B4981A8B3DB3DBD /* Pods_BigKeeperMain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77D7DE81C36BB003FFDBAF62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				392DD187036393D2EFF4CAA6 /* Pods-BigKeeperMain.debug.xcconfig */,
+				001A636365C87D76E00876D7 /* Pods-BigKeeperMain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		853223231F70ED11002B3CD5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				853223431F70ED11002B3CD5 /* BigKeeperMainTests */,
 				8532234E1F70ED11002B3CD5 /* BigKeeperMainUITests */,
 				8532232D1F70ED11002B3CD5 /* Products */,
+				77D7DE81C36BB003FFDBAF62 /* Pods */,
+				AB0654B5DFC0E9229126AFC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +115,7 @@
 		8532232E1F70ED11002B3CD5 /* BigKeeperMain */ = {
 			isa = PBXGroup;
 			children = (
+				8532235D1F70EFC5002B3CD5 /* Bigkeeper */,
 				8532232F1F70ED11002B3CD5 /* AppDelegate.swift */,
 				853223311F70ED11002B3CD5 /* ViewController.swift */,
 				853223331F70ED11002B3CD5 /* Main.storyboard */,
@@ -125,6 +144,14 @@
 			path = BigKeeperMainUITests;
 			sourceTree = "<group>";
 		};
+		AB0654B5DFC0E9229126AFC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65151A9E62E94156D185626 /* Pods_BigKeeperMain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853223541F70ED11002B3CD5 /* Build configuration list for PBXNativeTarget "BigKeeperMain" */;
 			buildPhases = (
+				70E33FFF80A37C70C6C397F8 /* [CP] Check Pods Manifest.lock */,
 				853223281F70ED11002B3CD5 /* Sources */,
 				853223291F70ED11002B3CD5 /* Frameworks */,
 				8532232A1F70ED11002B3CD5 /* Resources */,
+				C691FB69F7D7C62D76B92B80 /* [CP] Embed Pods Frameworks */,
+				2A8D3223EEB971169EA2169E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +265,7 @@
 				8532233A1F70ED11002B3CD5 /* LaunchScreen.storyboard in Resources */,
 				853223371F70ED11002B3CD5 /* Assets.xcassets in Resources */,
 				853223351F70ED11002B3CD5 /* Main.storyboard in Resources */,
+				8532235E1F70EFC5002B3CD5 /* Bigkeeper in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A8D3223EEB971169EA2169E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigKeeperMain/Pods-BigKeeperMain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E33FFF80A37C70C6C397F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C691FB69F7D7C62D76B92B80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigKeeperMain/Pods-BigKeeperMain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		853223281F70ED11002B3CD5 /* Sources */ = {
@@ -412,6 +491,7 @@
 		};
 		853223551F70ED11002B3CD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392DD187036393D2EFF4CAA6 /* Pods-BigKeeperMain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BigKeeperMain/Info.plist;
@@ -424,6 +504,7 @@
 		};
 		853223561F70ED11002B3CD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001A636365C87D76E00876D7 /* Pods-BigKeeperMain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BigKeeperMain/Info.plist;
@@ -507,6 +588,7 @@
 				853223561F70ED11002B3CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		853223571F70ED11002B3CD5 /* Build configuration list for PBXNativeTarget "BigKeeperMainTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +597,7 @@
 				853223591F70ED11002B3CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8532235A1F70ED11002B3CD5 /* Build configuration list for PBXNativeTarget "BigKeeperMainUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +606,7 @@
 				8532235C1F70ED11002B3CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

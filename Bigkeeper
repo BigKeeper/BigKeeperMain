@@ -1,0 +1,21 @@
+release do
+  main ‘BigKeeperMain’, ‘2.8.8’
+  module 'BigKeeperModular’, ‘2.8.8’
+end
+
+git do
+  module 'BigKeeperModular’, 'git@github.com:mmoaay/BigKeeperModular.git'
+end
+
+spec do
+  module 'BigKeeperModular’, ‘0.0.1’
+end
+
+path do
+  target ‘zhengyidong’ do
+    module 'BigKeeperModular’, '../BigKeeperModular'
+  end
+  target ‘mmoaay’ do
+    module 'BigKeeperModular’, '../BigKeeperModular'
+  end
+end
