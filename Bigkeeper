@@ -1,14 +1,15 @@
 version '2.8.8'
-build 2880
 
-modules ['BigKeeperModular']
+modules do
+  pod 'BigKeeperModular', :git => 'git@github.com:mmoaay/BigKeeperModular.git'
+end
 
 user 'perry' do
-  home :path => '../BigKeeperMain'
-  pod 'BigKeeperModular', :path => '../BigKeeperModular', :git => 'git@github.com:mmoaay/BigKeeperModular.git'
+  home 'BigKeeperMain', :path => '../BigKeeperMain'
+  pod 'BigKeeperModular', :path => '../BigKeeperModular'
 end
 
 user 'tom' do
-  home :path => '../BigKeeperMain'
-  pod 'BigKeeperModular', :path => '../BigKeeperModular', :git => 'git@github.com:mmoaay/BigKeeperModular.git'
+  home 'BigKeeperMain', :path => '../BigKeeperMain'
+  pod 'BigKeeperModular', :path => '../BigKeeperModular'
 end
