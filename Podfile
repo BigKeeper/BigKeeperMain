@@ -1,6 +1,7 @@
-use_frameworks!
 
 target 'BigKeeperMain' do
-    pod 'BigKeeperModular', :git => 'git@github.com:BigKeeper/BigKeeperModular.git', :branch => 'develop'
-  pod 'BigKeeperSDK', :git => 'git@github.com:BigKeeper/BigKeeperSDK.git', :branch => 'develop'
+
+  pod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git'
+  pod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git'
+
 end
