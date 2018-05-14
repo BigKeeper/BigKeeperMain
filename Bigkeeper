@@ -2,9 +2,11 @@ version '3.1.0'
 
 home 'BigKeeperMain', :git => 'git@github.com:BigKeeper/BigKeeperMain.git', :pulls => 'https://github.com/BigKeeper/BigKeeperMain/pulls'
 
-modules do
-  mod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperUserCenterModule/pulls'
+source 'https://github.com/CocoaPods/Specs.git, master' do
+	modules do
+	  mod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperUserCenterModule/pulls'
   mod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperOrderModule/pulls'
+  end
 end
 
 user 'perry' do
