@@ -1,7 +1,7 @@
 
 target 'BigKeeperMain' do
 
-  pod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :tag => 'Version in Bigkeeper file'
-  pod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :tag => 'Version in Bigkeeper file'
+  pod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :branch => 'release/3.2.0'
+  pod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :branch => 'release/3.2.0'
 
 end
