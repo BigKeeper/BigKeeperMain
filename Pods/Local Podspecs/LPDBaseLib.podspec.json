@@ -1,0 +1,72 @@
+{
+  "name": "LPDBaseLib",
+  "version": "0.5.1",
+  "summary": "A collect of thiry parties of LPDTeam",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://gitlab.alibaba-inc.com/eleme-lpd-iOS/LPDBaseLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sfmdeveloper@icloud.com": "fengming.shi@ele.me"
+  },
+  "source": {
+    "git": "git@gitlab.alibaba-inc.com:eleme-lpd-iOS/LPDBaseLib.git",
+    "tag": "0.5.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Base",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "LPDBaseLib/Classes/Base/*.{h,m}",
+      "public_header_files": "LPDBaseLib/Classes/Base/*.h",
+      "dependencies": {
+        "AFNetworking": [
+          "3.1.0"
+        ],
+        "SDWebImage": [
+
+        ],
+        "Masonry": [
+          "1.1.0"
+        ],
+        "GZIP": [
+          "1.2.1"
+        ],
+        "Mantle": [
+          "2.1.0"
+        ]
+      }
+    },
+    {
+      "name": "Image",
+      "source_files": "LPDBaseLib/Classes/Image/LPDResourcePullKit/**/*{h,m}",
+      "public_header_files": "LPDBaseLib/Classes/Image/LPDResourcePullKit/**/*.h",
+      "dependencies": {
+        "SDWebImage": [
+
+        ],
+        "SDWebImage/WebP": [
+
+        ],
+        "ELMImageManager": [
+
+        ]
+      }
+    },
+    {
+      "name": "Time",
+      "source_files": "LPDBaseLib/Classes/Time/LPDTimeElapse/**/*.{h,m}",
+      "public_header_files": "LPDBaseLib/Classes/Time/LPDTimeElapse/**/*.h",
+      "dependencies": {
+        "CocoaAsyncSocket": [
+
+        ]
+      }
+    }
+  ]
+}
