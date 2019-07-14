@@ -5,5 +5,5 @@ target 'BigKeeperMain' do
 
   pod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :tag => '3.2.0'
   pod 'BigKeeperOrderModule', :path => '../BigKeeperOrderModule'
-  pod 'LPDBaseLib/Base', :path => '/Users/SFM/workspace/ali-ele/LPDBaseLib'
+  pod 'LPDBaseLib/Base', '0.5.7'
 end
