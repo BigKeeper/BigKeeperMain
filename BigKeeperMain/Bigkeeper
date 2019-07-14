@@ -12,6 +12,6 @@ user 'perry' do
 pod 'BigKeeperModular', :path => '../BigKeeperModular'
 end
 
-user 'tom' do
-pod 'BigKeeperModular', :path => '../BigKeeperModular'
+user 'fengmingshi' do
+    mod 'LPDBaseLib', :path => '/Users/SFM/workspace/ali-ele/LPDBaseLib'
 end
