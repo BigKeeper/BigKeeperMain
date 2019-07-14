@@ -1,0 +1,22 @@
+{
+  "name": "BigKeeperOrderModule",
+  "version": "0.1.0",
+  "summary": "A short description of BigKeeperOrderModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/serena1993/BigKeeperOrderModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "serena1993": "lirui050716@163.com"
+  },
+  "source": {
+    "git": "https://github.com/serena1993/BigKeeperOrderModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BigKeeperOrderModule/Classes/**/*"
+}
