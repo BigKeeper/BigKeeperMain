@@ -3,9 +3,10 @@ version '3.1.0'
 home 'BigKeeperMain', :git => 'git@github.com:BigKeeper/BigKeeperMain.git', :pulls => 'https://github.com/BigKeeper/BigKeeperMain/pulls'
 
 source 'https://github.com/CocoaPods/Specs.git, master' do
-	modules do
-	  mod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperUserCenterModule/pulls'
-  mod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperOrderModule/pulls'
+  modules do
+     mod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperUserCenterModule/pulls'
+     mod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperOrderModule/pulls'
+     mod 'LPDBaseLib', :git => 'git@gitlab.alibaba-inc.com:eleme-lpd-iOS/LPDBaseLib.git', :pulls => 'https://github.com/BigKeeper/BigKeeperSDK/pulls'
   end
 end
 
@@ -15,4 +16,9 @@ end
 
 user 'tom' do
   mod 'BigKeeperModular', :path => '../BigKeeperModular'
+end
+
+
+user 'fengmingshi' do
+    pod 'LPDBaseLib', :path => '/Users/SFM/workspace/ali-ele/LPDBaseLib'
 end
