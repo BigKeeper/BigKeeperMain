@@ -5,6 +5,7 @@ home 'BigKeeperMain', :git => 'git@github.com:BigKeeper/BigKeeperMain.git', :pul
 modules do
 pod 'BigKeeperModular', :git => 'git@github.com:BigKeeper/BigKeeperModular.git', :pulls => 'https://github.com/BigKeeper/BigKeeperModular/pulls'
 pod 'BigKeeperSDK', :git => 'git@github.com:BigKeeper/BigKeeperSDK.git', :pulls => 'https://github.com/BigKeeper/BigKeeperSDK/pulls'
+pod 'LPDBaseLib', :git => 'git@gitlab.alibaba-inc.com:eleme-lpd-iOS/LPDBaseLib.git', :pulls => 'https://github.com/BigKeeper/BigKeeperSDK/pulls'
 end
 
 user 'perry' do
