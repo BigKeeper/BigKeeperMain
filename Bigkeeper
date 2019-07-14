@@ -20,5 +20,5 @@ end
 
 
 user 'fengmingshi' do
-    pod 'LPDBaseLib', :path => '/Users/SFM/workspace/ali-ele/LPDBaseLib'
+    mod 'LPDBaseLib', :path => '/Users/SFM/workspace/ali-ele/LPDBaseLib'
 end
