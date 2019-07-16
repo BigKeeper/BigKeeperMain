@@ -18,9 +18,13 @@
 	<string>3.2.0</string>
 	<key>CFBundleVersion</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<string>3102</string>
 =======
 	<string>3200</string>
+>>>>>>> release/3.2.0
+=======
+	<string>3201</string>
 >>>>>>> release/3.2.0
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
