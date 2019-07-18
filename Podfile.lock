@@ -1,21 +1,77 @@
 PODS:
-  - BigKeeperModular (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BigKeeperOrderModule (0.1.0)
+  - BigKeeperUserCenterModule (0.1.0)
+  - GZIP (1.2.1)
+  - LPDBaseLib/Base (0.5.7):
+    - AFNetworking (= 3.1.0)
+    - GZIP (= 1.2.1)
+    - Mantle (= 2.1.0)
+    - Masonry (= 1.1.0)
+    - SDWebImage (= 4.4.3)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.1.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
 
 DEPENDENCIES:
-  - BigKeeperModular (from `git@github.com:mmoaay/BigKeeperModular.git`)
+  - "BigKeeperOrderModule (from `git@github.com:BigKeeper/BigKeeperOrderModule.git`, tag `3.1.0`)"
+  - "BigKeeperUserCenterModule (from `git@github.com:BigKeeper/BigKeeperUserCenterModule.git`, tag `3.1.0`)"
+  - LPDBaseLib/Base (= 0.5.7)
+
+SPEC REPOS:
+  "git@gitlab.alibaba-inc.com:eleme-lpd-iOS/LPDSpecs.git":
+    - AFNetworking
+    - GZIP
+    - Mantle
+    - Masonry
+    - SDWebImage
+  "git@gitlab.alibaba-inc.com:eleme-wireless-ios/eleme-ios-specs.git":
+    - LPDBaseLib
 
 EXTERNAL SOURCES:
-  BigKeeperModular:
-    :git: git@github.com:mmoaay/BigKeeperModular.git
+  BigKeeperOrderModule:
+    :git: "git@github.com:BigKeeper/BigKeeperOrderModule.git"
+    :tag: 3.1.0
+  BigKeeperUserCenterModule:
+    :git: "git@github.com:BigKeeper/BigKeeperUserCenterModule.git"
+    :tag: 3.1.0
 
 CHECKOUT OPTIONS:
-  BigKeeperModular:
-    :commit: cefa91eb14a4ddb747989d4655becea05238138d
-    :git: git@github.com:mmoaay/BigKeeperModular.git
+  BigKeeperOrderModule:
+    :git: "git@github.com:BigKeeper/BigKeeperOrderModule.git"
+    :tag: 3.1.0
+  BigKeeperUserCenterModule:
+    :git: "git@github.com:BigKeeper/BigKeeperUserCenterModule.git"
+    :tag: 3.1.0
 
 SPEC CHECKSUMS:
-  BigKeeperModular: 6a8230aa173c0c624607cdb218554060a63c5633
+  AFNetworking: 9c1348765f8a4dd453748d175459e0f46fc642f5
+  BigKeeperOrderModule: c27805d6963757a4700aef5aa2e6fbf48b234a96
+  BigKeeperUserCenterModule: a189af9dd44e20dbff3e230952311973f742ee6b
+  GZIP: db0a355979862024815ea5bf429ad6e41b9f440e
+  LPDBaseLib: bb4e0dba454b73edc9e95b4634e1815a553a8307
+  Mantle: e3f386c4b398b735fa00be1af3c4d4ae9cc49c24
+  Masonry: f06061f85ee62453d1f5af6f66b3f2faec483ab2
+  SDWebImage: 22788c52acf6411293a920dae15d9e710b84d1c6
 
-PODFILE CHECKSUM: 4710fa6ef3f9d234e73509303b92600a56cacdac
+PODFILE CHECKSUM: 6a5762a671d99f217950336d1fa9b3661a267df4
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.0
