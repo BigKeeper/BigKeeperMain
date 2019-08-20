@@ -17,7 +17,7 @@ PODS:
   - BigKeeperOrderModule (0.1.0)
   - BigKeeperUserCenterModule (0.1.0)
   - GZIP (1.2.1)
-  - LPDBaseLib/Base (0.5.7):
+  - LPDBaseLib/Base (0.5.8):
     - AFNetworking (= 3.1.0)
     - GZIP (= 1.2.1)
     - Mantle (= 2.1.0)
@@ -32,9 +32,9 @@ PODS:
   - SDWebImage/Core (4.4.3)
 
 DEPENDENCIES:
-  - "BigKeeperOrderModule (from `git@github.com:BigKeeper/BigKeeperOrderModule.git`, tag `3.1.0`)"
-  - "BigKeeperUserCenterModule (from `git@github.com:BigKeeper/BigKeeperUserCenterModule.git`, tag `3.1.0`)"
-  - LPDBaseLib/Base (= 0.5.7)
+  - "BigKeeperOrderModule (from `git@github.com:BigKeeper/BigKeeperOrderModule.git`, tag `3.2.0`)"
+  - "BigKeeperUserCenterModule (from `git@github.com:BigKeeper/BigKeeperUserCenterModule.git`, tag `3.2.0`)"
+  - LPDBaseLib/Base (= 0.5.8)
 
 SPEC REPOS:
   "git@gitlab.alibaba-inc.com:eleme-lpd-iOS/LPDSpecs.git":
@@ -49,29 +49,29 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   BigKeeperOrderModule:
     :git: "git@github.com:BigKeeper/BigKeeperOrderModule.git"
-    :tag: 3.1.0
+    :tag: 3.2.0
   BigKeeperUserCenterModule:
     :git: "git@github.com:BigKeeper/BigKeeperUserCenterModule.git"
-    :tag: 3.1.0
+    :tag: 3.2.0
 
 CHECKOUT OPTIONS:
   BigKeeperOrderModule:
     :git: "git@github.com:BigKeeper/BigKeeperOrderModule.git"
-    :tag: 3.1.0
+    :tag: 3.2.0
   BigKeeperUserCenterModule:
     :git: "git@github.com:BigKeeper/BigKeeperUserCenterModule.git"
-    :tag: 3.1.0
+    :tag: 3.2.0
 
 SPEC CHECKSUMS:
   AFNetworking: 9c1348765f8a4dd453748d175459e0f46fc642f5
   BigKeeperOrderModule: c27805d6963757a4700aef5aa2e6fbf48b234a96
   BigKeeperUserCenterModule: a189af9dd44e20dbff3e230952311973f742ee6b
   GZIP: db0a355979862024815ea5bf429ad6e41b9f440e
-  LPDBaseLib: bb4e0dba454b73edc9e95b4634e1815a553a8307
+  LPDBaseLib: 67d67a34bf06782a56097dd51c8c0f85791c27b0
   Mantle: e3f386c4b398b735fa00be1af3c4d4ae9cc49c24
   Masonry: f06061f85ee62453d1f5af6f66b3f2faec483ab2
   SDWebImage: 22788c52acf6411293a920dae15d9e710b84d1c6
 
-PODFILE CHECKSUM: 6a5762a671d99f217950336d1fa9b3661a267df4
+PODFILE CHECKSUM: 75684c00143a93b19ccd3a9f9d44ade39a4439a8
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.5.0
