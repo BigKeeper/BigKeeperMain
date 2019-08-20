@@ -14,8 +14,8 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - BigKeeperOrderModule (0.1.0)
-  - BigKeeperUserCenterModule (0.1.0)
+  - BigKeeperOrderModule (3.7.0)
+  - BigKeeperUserCenterModule (3.7.0)
   - GZIP (1.2.1)
   - LPDBaseLib/Base (0.5.8):
     - AFNetworking (= 3.1.0)
@@ -32,8 +32,8 @@ PODS:
   - SDWebImage/Core (4.4.3)
 
 DEPENDENCIES:
-  - "BigKeeperOrderModule (from `git@github.com:BigKeeper/BigKeeperOrderModule.git`, tag `3.2.0`)"
-  - "BigKeeperUserCenterModule (from `git@github.com:BigKeeper/BigKeeperUserCenterModule.git`, tag `3.2.0`)"
+  - "BigKeeperOrderModule (from `git@github.com:BigKeeper/BigKeeperOrderModule.git`, branch `feature/4.0.0_fengmingshi_test_module2`)"
+  - "BigKeeperUserCenterModule (from `git@github.com:BigKeeper/BigKeeperUserCenterModule.git`, branch `feature/4.0.0_fengmingshi_test_module2`)"
   - LPDBaseLib/Base (= 0.5.8)
 
 SPEC REPOS:
@@ -48,30 +48,30 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   BigKeeperOrderModule:
+    :branch: feature/4.0.0_fengmingshi_test_module2
     :git: "git@github.com:BigKeeper/BigKeeperOrderModule.git"
-    :tag: 3.2.0
   BigKeeperUserCenterModule:
+    :branch: feature/4.0.0_fengmingshi_test_module2
     :git: "git@github.com:BigKeeper/BigKeeperUserCenterModule.git"
-    :tag: 3.2.0
 
 CHECKOUT OPTIONS:
   BigKeeperOrderModule:
+    :commit: ab40d4dff1090df8193cc199f9c3f34758872389
     :git: "git@github.com:BigKeeper/BigKeeperOrderModule.git"
-    :tag: 3.2.0
   BigKeeperUserCenterModule:
+    :commit: d734eecbe5cf7e95e7f5d42b6de89a1a05540fc3
     :git: "git@github.com:BigKeeper/BigKeeperUserCenterModule.git"
-    :tag: 3.2.0
 
 SPEC CHECKSUMS:
   AFNetworking: 9c1348765f8a4dd453748d175459e0f46fc642f5
-  BigKeeperOrderModule: c27805d6963757a4700aef5aa2e6fbf48b234a96
-  BigKeeperUserCenterModule: a189af9dd44e20dbff3e230952311973f742ee6b
+  BigKeeperOrderModule: 32990a8e1f42c4d980c0f84597e6d93aad077496
+  BigKeeperUserCenterModule: e5b484f85bbe33d75ba6819589a444c4c4873fc7
   GZIP: db0a355979862024815ea5bf429ad6e41b9f440e
   LPDBaseLib: 67d67a34bf06782a56097dd51c8c0f85791c27b0
   Mantle: e3f386c4b398b735fa00be1af3c4d4ae9cc49c24
   Masonry: f06061f85ee62453d1f5af6f66b3f2faec483ab2
   SDWebImage: 22788c52acf6411293a920dae15d9e710b84d1c6
 
-PODFILE CHECKSUM: 75684c00143a93b19ccd3a9f9d44ade39a4439a8
+PODFILE CHECKSUM: 1eecec40e40f71cc7e636c4fc00121802db53f89
 
 COCOAPODS: 1.5.0

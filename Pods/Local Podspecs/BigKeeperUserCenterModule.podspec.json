@@ -1,6 +1,6 @@
 {
   "name": "BigKeeperUserCenterModule",
-  "version": "0.1.0",
+  "version": "3.7.0",
   "summary": "A short description of BigKeeperUserCenterModule.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/serena1993/BigKeeperUserCenterModule",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/serena1993/BigKeeperUserCenterModule.git",
-    "tag": "0.1.0"
+    "tag": "3.7.0"
   },
   "platforms": {
     "ios": "8.0"

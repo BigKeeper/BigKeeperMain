@@ -3,8 +3,8 @@ source 'git@gitlab.alibaba-inc.com:eleme-lpd-iOS/LPDSpecs.git'
 
 target 'BigKeeperMain' do
 
-  pod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :tag => '3.2.0'
-  pod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :tag => '3.2.0'
+  pod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :branch => 'feature/4.0.0_fengmingshi_test_module2'
+  pod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :branch => 'feature/4.0.0_fengmingshi_test_module2'
   pod 'LPDBaseLib/Base', '0.5.8'
 
 end
