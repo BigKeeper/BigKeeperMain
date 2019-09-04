@@ -10,7 +10,10 @@ target 'BigKeeperMain' do
 =======
   pod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :branch => 'develop'
   pod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :tag => '4.0.9'
+<<<<<<< HEAD
 >>>>>>> release/4.0.8
+=======
+>>>>>>> release/4.0.7
   pod 'LPDBaseLib/Base', '0.5.8'
 =======
   pod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :tag => '3.7.0'

@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<string>3.6.0</string>
 	<key>CFBundleVersion</key>
 <<<<<<< HEAD
@@ -48,6 +49,11 @@
 	<key>CFBundleVersion</key>
 	<string>4090</string>
 >>>>>>> release/4.0.9
+=======
+	<string>4.0.7</string>
+	<key>CFBundleVersion</key>
+	<string>4070</string>
+>>>>>>> release/4.0.7
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
