@@ -6,8 +6,13 @@ source 'https://github.com/CocoaPods/Specs.git, master' do
   modules do
      mod 'BigKeeperUserCenterModule', :git => 'git@github.com:BigKeeper/BigKeeperUserCenterModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperUserCenterModule/pulls'
      mod 'BigKeeperOrderModule', :git => 'git@github.com:BigKeeper/BigKeeperOrderModule.git', :pulls => 'https://github.com/BigKeeper/BigKeeperOrderModule/pulls'
-     mod 'LPDBaseLib', :git => 'git@gitlab.alibaba-inc.com:eleme-lpd-iOS/LPDBaseLib.git', :pulls => 'https://github.com/BigKeeper/BigKeeperSDK/pulls'
   end
+end
+
+source 'git@gitlab.alibaba-inc.com:eleme-wireless-ios/eleme-ios-specs.git, alibaba-inc-eleme-ios-specs' do
+	modules do
+		mod 'LPDBaseLib', :git => 'git@gitlab.alibaba-inc.com:eleme-lpd-iOS/LPDBaseLib.git', :pulls => 'https://github.com/BigKeeper/BigKeeperSDK/pulls'
+	end
 end
 
 user 'perry' do
