@@ -1,6 +1,6 @@
 {
   "name": "BigKeeperOrderModule",
-  "version": "0.1.0",
+  "version": "4.0.4",
   "summary": "A short description of BigKeeperOrderModule.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/serena1993/BigKeeperOrderModule",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/serena1993/BigKeeperOrderModule.git",
-    "tag": "0.1.0"
+    "tag": "4.0.4"
   },
   "platforms": {
     "ios": "8.0"
